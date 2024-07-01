@@ -1,0 +1,22 @@
+.container {
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 768px;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listItem {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px 15px;
+}
